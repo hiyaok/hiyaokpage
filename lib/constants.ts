@@ -1,4 +1,4 @@
-export const BRAND = process.env.NEXT_PUBLIC_BRAND_NAME ?? "HiyaCode";
+export const BRAND = process.env.NEXT_PUBLIC_BRAND_NAME ?? "ElzevirCode";
 export const TELEGRAM_USERNAME = process.env.NEXT_PUBLIC_TELEGRAM_USERNAME ?? "hiyaok";
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://your-domain.com").replace(/\/$/, "");
 
