@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+
+  /* Default = Soft Dark (friendly) */
+  --bg0: #050507;
+  --bg1: #07070b;
+  --card: rgba(12, 12, 16, 0.55);
+  --border: rgba(255,255,255,0.08);
+  --text: #e7e7ea;
+  --muted: rgba(231,231,234,0.72);
+  --muted2: rgba(231,231,234,0.56);
+  --accent: rgba(255,255,255,0.90);
+}
+
+html[data-theme="dark"]{
+  /* Dark = lebih kontras */
+  --bg0: #000000;
+  --bg1: #050507;
+  --card: rgba(10, 10, 12, 0.60);
+  --border: rgba(255,255,255,0.10);
+  --text: #f2f2f5;
+  --muted: rgba(242,242,245,0.75);
+  --muted2: rgba(242,242,245,0.58);
+  --accent: rgba(255,255,255,0.96);
+}
+
+html, body { height: 100%; }
+body {
+  background: var(--bg0);
+  color: var(--text);
+  overflow-x: hidden;
+}
+
+* { -webkit-tap-highlight-color: transparent; }
+a { text-decoration: none; }
+
+html { scroll-behavior: smooth; }
