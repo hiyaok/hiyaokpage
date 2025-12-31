@@ -3,8 +3,7 @@ export const TELEGRAM_USERNAME = process.env.NEXT_PUBLIC_TELEGRAM_USERNAME ?? "h
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://your-domain.com").replace(/\/$/, "");
 
 /**
- * Keyword SEO: banyakin tapi tetap relevan + natural.
- * (Jangan 100% spam. Ini sudah “padat tapi masih masuk akal”.)
+ * Keyword SEO
  */
 export const PRIMARY_KEYWORDS = [
   "jasa bot telegram",
