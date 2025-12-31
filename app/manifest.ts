@@ -3,8 +3,8 @@ import { SITE_URL } from "@/lib/constants";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "BotKilat — Jasa Bot Telegram",
-    short_name: "BotKilat",
+    name: "ElzevirCode — Jasa Bot Telegram",
+    short_name: "ElzevirCode",
     description: "Promo 2026 jasa pembuatan bot Telegram profesional start 50RB-an aja!",
     start_url: SITE_URL,
     display: "standalone",
